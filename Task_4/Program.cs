@@ -1,9 +1,11 @@
 ﻿// Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
-
-int a = 9,
-    b = 1,
-    c = 8,
-    max=c;
+Console.Write("Input first number: ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input second number: ");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input third number: ");
+int c = Convert.ToInt32(Console.ReadLine());
+int max=c;
     
 if (a>c)
 {
